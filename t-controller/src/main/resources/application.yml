@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: t-controller
+
+  config:
+    import:
+      - t-db.yml
+
+
+#logging:
+#  level.org.springframework: debug
